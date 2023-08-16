@@ -239,16 +239,16 @@ border-radius:  0 280px 230px;}
   border-color: var(--accent);
 }
 .filter-drop1 {
-  filter: drop-shadow(5px 5px 3px red);
+  filter: drop-shadow(5px 5px 2px  rgb(133, 175, 232));
 }
 .filter-drop2 {
-  filter: drop-shadow(5px 5px 3px yellow);
+  filter: drop-shadow(5px 5px 3px rgb(133, 175, 232));
 }
 .filter-drop3 {
-  filter: drop-shadow(5px 5px 3px blue);
+  filter: drop-shadow(5px 5px 3px rgb(245, 247, 250));
 }
 .filter-drop4 {
-  filter: drop-shadow(5px 5px 3px green);
+  filter: drop-shadow(3px 3px 2px rgb(245, 247, 250));
 }
 
 .blog-card:hover {
