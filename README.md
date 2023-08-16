@@ -10,4 +10,4 @@
 - Remark-HTML
 
 ## Screenshots 📸
-[Imgur](https://i.imgur.com/a0RVxPA.png)
+![Dev-Diaries:HomePage)](https://i.imgur.com/a0RVxPA.png)
