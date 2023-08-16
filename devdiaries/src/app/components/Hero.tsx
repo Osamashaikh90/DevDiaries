@@ -22,8 +22,8 @@ const Hero=()=> {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 text-center">
-            <a href="#" className="mt-4 btn btn-primary">Contact Me</a>
-            <a href="#" className="mt-4 btn btn-secondary">About Me</a>
+            <a href="mailto:shaikhosama499@gmail.com" className="mt-4 btn btn-primary">Contact Me</a>
+            <a href="https://www.linkedin.com/in/osama-shaikh-8641a5211/" className="mt-4 btn btn-secondary">About Me</a>
           </div>
 
         </div>
