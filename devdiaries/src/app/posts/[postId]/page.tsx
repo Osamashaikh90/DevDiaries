@@ -6,7 +6,7 @@ import Link from "next/link"
 export function generateStaticParams() {
     const posts = getSortedPostsData()
 
-    return posts.map((post:any) => ({
+    return posts.map((post) => ({
         postId: post.id
     }))
 }
@@ -41,12 +41,12 @@ export default async function Post({ params }: { params: { postId: string } }) {
     const pubDate = getFormatDate(date)
 
     return (
-        <main className="prose prose-xl prose-slate dark:prose-invert  mx-auto  bg-white/30 backdrop-blur-md shadow-xl rounded-3xl h-auto lg:w-[900px] md:w-[550px] xxsm:w-[360px] px-10 pt-16 pb-10">
+        <main className=" my-5 prose prose-xl prose-slate dark:prose-invert  mx-auto  bg-white/30 backdrop-blur-md shadow-xl rounded-3xl h-auto lg:w-[900px] md:w-[550px] xxsm:w-[360px] px-10 pt-16 pb-10">
             <h1 className="mt-4 mb-0 text-3xl">{title}</h1>
-            <h1>Published on: {date}</h1>
-            <p className="mt-0">
+            {/* <h1 className="mt-4 mb-0 text-2xl">Published on: {date}</h1> */}
+            <h1 className="mt-4 mb-0 text-lg">
                 {pubDate}
-            </p>
+            </h1>
             <article>
                 <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
                 <p className="bg-white/30 backdrop-blur-md shadow-xl rounded-3xl p-2 w-[200px] font-semibold flex items-center justify-center mt-5">
