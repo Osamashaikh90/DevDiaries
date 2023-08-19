@@ -14,7 +14,7 @@ export default function ListItem({ post }: Props) {
     return (
         <li className="mt-1 ">
             <Link className="font-semibold md:text-2xl xxsm:text-xl blog-topic" href={`/posts/${id}`}>{title}</Link>
-            <h5 className='mt-1 text-xl font-semibold'>Published on: {date}</h5>
+            <h5 className='mt-1 md:text-xl xxsm:text-md font-semibold'>Published on: {date}</h5>
             <br />
             {/* <p className="mt-1 text-sm">{formattedDate}</p> */}
         </li>
